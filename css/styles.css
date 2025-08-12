@@ -585,6 +585,7 @@ img {
   margin: 20px 20px;
   cursor: pointer;
   border: none;
+  transition: all 0.3s ease;
 }
 
 .btn-block {
@@ -596,31 +597,54 @@ img {
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+/* Updated hover effect */
 .btn:hover {
-  opacity: 0.8;
-  background: var(--primary-color)
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .btn-secondary {
-  background: var(--secondary-color);
+    background: var(--secondary-color)
 }
 
 .btn-tertiary {
-  background: var(--tertiary-color);
+    background: var(--tertiary-color)
 }
 
 .btn-quarternary {
-  background: var(--quarternary-color);
+    background: var(--quarternary-color)
 }
 
 .btn-accent {
-  background: var(--accent-color);
+    background: var(--accent-color);
 }
 
 .btn-transparent {
-  border: 2px solid #fff;
+    border: 2px solid lavender;
+}
+
+/* Specific hover effects for different button colors */
+.btn-secondary:hover {
+  background: #3a19e0;
+}
+
+.btn-tertiary:hover {
+  background: #1a87d6;
+}
+
+.btn-quarternary:hover {
+  background: #1a9e8b;
+}
+
+.btn-accent:hover {
+  background: #c72968;
+}
+
+.btn-transparent:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Cards */
