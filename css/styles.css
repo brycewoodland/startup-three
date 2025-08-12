@@ -841,11 +841,22 @@ img {
   }
 
   .pricing-section .pricing-grid .price-card:last-child {
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .pricing-section .pricing-grid .price-card:nth-child(1) a {
+    transform: translateY(20px);
+    margin-bottom: 1rem;
+  }
+
+  .pricing-section .pricing-grid .price-card:nth-child(2) a {
+    transform: translateY(20px);
+    margin-top: 0;
   }
 
   .pricing-section .pricing-grid .price-card:last-child a {
-    transform: translateY(0);
+    transform: translateY(30px);
+    margin-top: 0;
   }
 
   .site-footer .footer-top,
