@@ -1,7 +1,8 @@
 # Figma to Code: A Design Implementation Project
 
 ## Overview
-This is a personal, in-progress front-end development project focused on translating a professional Figma design template into a fully functional and responsive web landing page.  
+This is a personal, in-progress front-end development project focused on translating a professional Figma design template into a fully functional and responsive web landing page.
+
 My aim is to recreate the design, paying close attention to detail, responsiveness, and clean, semantic code. This project serves as a practical demonstration of my abilities in front-end development, from design interpretation to interactive implementation.
 
 ## Design Reference
@@ -66,4 +67,5 @@ This project heavily relies on fundamental web development knowledge. Here are s
 - ## Contact
 
 **Your Name:** Bryce Woodland
+
 **Email:** brycewoodland0@gmail.com
