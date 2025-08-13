@@ -16,12 +16,15 @@
   --accent-color: #E93A7D;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   font-size: 16px;
   font-family: 'DM Sans', sans-serif;
   line-height: 1.5;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 
 a {
@@ -407,6 +410,10 @@ img {
   background: #2F1893 url('../images/Background(1).png') no-repeat 50%/cover fixed;
   position: relative;
   padding: 5rem 0;
+}
+
+.pricing-menu {
+  display: none;
 }
 
 .pricing-section .pricing-grid {
@@ -922,6 +929,54 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .pricing-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    height: 75px;
+  }
+
+  .pricing-menu p {
+    display: flex;
+    color: white;
+    margin: 20px;
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+  }
+
+  .pricing-menu p.active {
+    background: rgba(248, 113, 113, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .pricing-grid {
+    display: block;
+  }
+
+  .price-card {
+    display: none;
+  }
+
+  .price-card.active {
+    display: block;
+    transition: 0.4s ease-in-out;
+  }
+
+  .pricing-grid .price-card {
+    display: none;
+  }
+
+  .pricing-grid .price-card.active {
+    display: block;
   }
 
   .pricing-section .pricing-grid {

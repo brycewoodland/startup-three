@@ -21,3 +21,20 @@ navLinks.forEach(link => {
     document.body.classList.remove('no-scroll');
   });
 });
+
+// Pricing Menu
+const tabs = document.querySelectorAll('.pricing-menu p');
+const cards = document.querySelectorAll('.price-card');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const selectedPlan = tab.dataset.plan;
+
+      tabs.forEach(t => t.classList.remove('active'));
+      cards.forEach(card => card.classList.remove('active'));
+
+      tab.classList.add('active');
+      const selectedCard = document.querySelector(`.price-card[data-plan="${selectedPlan}"]`);
+      if (selectedCard) selectedCard.classList.add('active');
+    });
+});

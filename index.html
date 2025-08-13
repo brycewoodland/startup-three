@@ -325,8 +325,21 @@
             your site.
           </p>
         </div>
+        <!-- Mobile Menu (Tabs) -->
+        <div class="pricing-menu">
+          <div>
+            <p data-plan="starter" class="active text-md">Starter</p>
+          </div>
+          <div>
+            <p data-plan="professional" class="text-md">Professional</p>
+          </div>
+          <div>
+            <p data-plan="team" class="text-md">Team</p>
+          </div>
+        </div>
+
         <div class="pricing-grid">
-          <div class="price-card">
+          <div class="price-card active" data-plan="starter">
             <h2 class="text-lg">Starter</h2>
             <h1 class="text-xxl">$9.99</h1>
             <p><i class="fa-solid fa-check"></i>2 GB of space</p>
@@ -335,7 +348,7 @@
             <p><i class="fa-solid fa-check"></i>Client Billing</p>
             <a href="" class="btn-transparent btn-block">Get Started</a>
           </div>
-          <div class="price-card">
+          <div class="price-card" data-plan="professional">
             <h2 class="text-lg">Professional</h2>
             <h1 class="text-xxl">$19.99</h1>
             <p><i class="fa-solid fa-check"></i>2 GB of space</p>
@@ -346,7 +359,7 @@
             <p><i class="fa-solid fa-check"></i>24 hours support</p>
             <a href="" class="btn btn-block btn-accent">Get Started</a>
           </div>
-          <div class="price-card">
+          <div class="price-card" data-plan="team">
             <h2 class="text-lg">Team</h2>
             <h1 class="text-xxl">$49.99</h1>
             <p><i class="fa-solid fa-check"></i>2 GB of space</p>
@@ -394,7 +407,7 @@
               <li><a href="#team">Contacts</a></li>
             </ul>
           </div>
-          <p>© <span class="date"></span> Woodland. All rights reserved.</p>
+          <p>© <span class="date"></span> Designmodeo. All rights reserved.</p>
         </div>
       </div>
     </footer>
