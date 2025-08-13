@@ -66,6 +66,6 @@ This project heavily relies on fundamental web development knowledge. Here are s
 
 - ## Contact
 
-**Your Name:** Bryce Woodland
+Bryce Woodland
 
 **Email:** brycewoodland0@gmail.com
